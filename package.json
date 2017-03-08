@@ -1,0 +1,36 @@
+{
+  "name": "maunalaniterrace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-nunjucks-render": "^2.0.0",
+
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.2",
+
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.0",
+    "method-override": "^2.3.7"
+  }
+}

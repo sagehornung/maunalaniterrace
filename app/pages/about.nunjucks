@@ -1,0 +1,12 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<h1>This is the about page</h1>
+
+{% import 'macros/nav-macro.nunjucks' as nav %}
+<!-- Creating the navigation with activePage = 'home' -->
+{{nav.active('about')}}
+
+{% endblock %}

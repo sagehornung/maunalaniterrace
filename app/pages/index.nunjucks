@@ -1,0 +1,25 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+{% import 'macros/nav-macro.nunjucks' as nav %}
+<!-- Creating the navigation with activePage = 'home' -->
+{{nav.active('home')}}
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <img class="d-block img-fluid" src="images/s1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block img-fluid" src="images/s2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block img-fluid" src="images/s3.jpg" alt="Third slide">
+        </div>
+    </div>
+</div>
+
+{% endblock %}

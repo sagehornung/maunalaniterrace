@@ -1,0 +1,22 @@
+{
+  "name": "maunalaniterrace",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "sagehornung <sagehornung@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
